@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "title": "Żibel - Quick Links",
+    "description": "Quick access to all Żibel community tools and resources."
+  },
+  "common": {
+    "opensInNewTab": "opens in new tab",
+    "backToLinks": "Back to Links"
+  },
+  "home": {
+    "tagline": "Quick access to all community tools and resources",
+    "footer": "It starts with you"
+  },
+  "links": {
+    "tribeBinEmptying": {
+      "label": "Tribe Bin Emptying",
+      "description": "Log when you empty a tribe bin to help us track waste collection efforts"
+    },
+    "cleanUp": {
+      "label": "Clean Up",
+      "description": "Log when you clean up to help us track community efforts"
+    },
+    "invoice": {
+      "label": "Claim Invoice",
+      "description": "Submit and track your invoices"
+    },
+    "operations": {
+      "label": "Internal Operations",
+      "description": "Access the monday.com operations board"
+    },
+    "ghostNetReporting": {
+      "label": "Ghost Net Reporting",
+      "description": "Report ghost nets in your area"
+    },
+    "volunteer": {
+      "label": "Volunteer Sign-Up",
+      "description": "Join our community volunteer programs"
+    },
+    "help": {
+      "label": "Help & Support",
+      "description": "Get help or contact us"
+    }
+  },
+  "notFound": {
+    "title": "Oops! Page not found",
+    "returnHome": "Return to Home"
+  }
+}

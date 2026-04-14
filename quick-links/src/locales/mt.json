@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "title": "Żibel - Links Rapidu",
+    "description": "Aċċess rapidu għall-għodod u r-riżorsi kollha tal-komunità Żibel."
+  },
+  "common": {
+    "opensInNewTab": "jiftaħ f'tab ġdid",
+    "backToLinks": "Lura għall-Links"
+  },
+  "home": {
+    "tagline": "Aċċess rapidu għall-għodod u r-riżorsi kollha tal-komunità",
+    "footer": "Jibda miegħek"
+  },
+  "links": {
+    "tribeBinEmptying": {
+      "label": "Tbattil tat Tribe Bin",
+      "description": "Imla meta tbattal bin tat-tribù biex tgħinna nsegwu l-isforzi tal-ġbir tal-iskart"
+    },
+    "cleanUp": {
+      "label": "Tiżbliet",
+      "description": "Imla meta tnaddaf biex tgħinna nsegwu l-isforzi tal-komunità"
+    },
+    "invoice": {
+      "label": "Talba għal Fattura",
+      "description": "Ibgħat u segwi l-fatturi tiegħek"
+    },
+    "operations": {
+      "label": "Operazzjonijiet Interni",
+      "description": "Aċċess għall-bord tal-operazzjonijiet ta' monday.com"
+    },
+    "ghostNetReporting": {
+      "label": "Rapportar ta' Netti Fantasma",
+      "description": "Irrapporta netti fantasma fiż-żona tiegħek"
+    },
+    "volunteer": {
+      "label": "Reġistrazzjoni għal Volontar",
+      "description": "Ingħaqad mal-programmi tal-volontar tal-komunità"
+    },
+    "help": {
+      "label": "Għajnuna u Appoġġ",
+      "description": "Ikollok għajnuna jew ikkuntatjana"
+    }
+  },
+  "notFound": {
+    "title": "Oops! Il-paġna ma nstabnitx",
+    "returnHome": "Erġa' lura għad-dar"
+  }
+}

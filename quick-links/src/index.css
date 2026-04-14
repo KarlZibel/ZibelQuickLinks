@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Outfit:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Dark navy background #26374b */
+    --background: 213 32% 22%;
+    --foreground: 0 0% 96%;
+
+    --card: 213 30% 27%;
+    --card-foreground: 0 0% 96%;
+
+    --popover: 213 30% 27%;
+    --popover-foreground: 0 0% 96%;
+
+    /* Green primary #74a943 */
+    --primary: 90 44% 46%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 213 25% 30%;
+    --secondary-foreground: 0 0% 92%;
+
+    --muted: 213 22% 28%;
+    --muted-foreground: 210 15% 65%;
+
+    --accent: 90 44% 46%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 213 20% 32%;
+    --input: 213 20% 32%;
+    --ring: 90 44% 46%;
+
+    --radius: 0.75rem;
+
+    --shadow-card: 0 2px 12px -2px hsl(213 32% 10% / 0.3);
+    --shadow-card-hover: 0 8px 24px -4px hsl(90 44% 46% / 0.2);
+
+    --sidebar-background: 213 32% 20%;
+    --sidebar-foreground: 0 0% 96%;
+    --sidebar-primary: 90 44% 46%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 213 25% 30%;
+    --sidebar-accent-foreground: 0 0% 96%;
+    --sidebar-border: 213 20% 32%;
+    --sidebar-ring: 90 44% 46%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'DM Sans', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', sans-serif;
+  }
+}
