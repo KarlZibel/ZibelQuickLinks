@@ -29,8 +29,8 @@
       "description": "Access the monday.com operations board"
     },
     "ghostNetReporting": {
-      "label": "Ghost Net Reporting",
-      "description": "Report ghost nets in your area"
+      "label": "Ghost Net Logging",
+      "description": "Log a ghost net"
     },
     "volunteer": {
       "label": "Volunteer Sign-Up",

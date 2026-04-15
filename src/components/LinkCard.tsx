@@ -19,6 +19,7 @@ interface LinkCardProps {
 export function LinkCard({ label, description, icon, href, type, onIframeClick }: LinkCardProps) {
   const { t } = useTranslation();
   const opensInNewTab = t("common.opensInNewTab");
+  const cardSx = { width: "100%", maxWidth: 1000, mx: "auto" };
   const cardContent = (
     <CardContent sx={{ display: "flex", alignItems: "flex-start", gap: 2, p: 2, "&:last-child": { pb: 2 } }}>
       {/* Icon avatar */}
@@ -53,7 +54,7 @@ export function LinkCard({ label, description, icon, href, type, onIframeClick }
 
   if (type === "external") {
     return (
-      <Card variant="outlined">
+      <Card variant="outlined" sx={cardSx}>
         <CardActionArea
           component="a"
           href={href}
@@ -68,7 +69,7 @@ export function LinkCard({ label, description, icon, href, type, onIframeClick }
   }
 
   return (
-    <Card variant="outlined">
+    <Card variant="outlined" sx={cardSx}>
       <CardActionArea onClick={onIframeClick}>
         {cardContent}
       </CardActionArea>

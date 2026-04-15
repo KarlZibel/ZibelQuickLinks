@@ -14,7 +14,17 @@ interface IframeEmbedProps {
 export function IframeEmbed({ title, src, onBack }: IframeEmbedProps) {
   const { t } = useTranslation();
   return (
-    <Box sx={{ width: "100%", /*maxWidth: 80*/ mx: "auto" }}>
+    <Box
+      sx={{
+        width: "100%",
+        height: "100%",
+        flex: 1,
+        mx: "auto",
+        display: "flex",
+        flexDirection: "column",
+        minHeight: 0,
+      }}
+    >
       {/* Back button */}
       <Button
         startIcon={<ArrowBackIcon />}
@@ -31,14 +41,29 @@ export function IframeEmbed({ title, src, onBack }: IframeEmbedProps) {
       </Typography>
 
       {/* Responsive iframe */}
-      <Paper variant="outlined" sx={{ overflow: "hidden", borderRadius: 3 }}>
+      <Paper
+        variant="outlined"
+        sx={{
+          overflow: "hidden",
+          borderRadius: 3,
+          flex: 1,
+          minHeight: 0,
+          width: "100%",
+        }}
+      >
         <Box
           component="iframe"
           src={src}
           title={title}
           allow="fullscreen"
           loading="lazy"
-          sx={{ overflow: "hidden", width: "100%", height: "70vh", border: 0, display: "block" }}
+          sx={{
+            overflow: "hidden",
+            width: "100%",
+            height: "100%",
+            border: 0,
+            display: "block",
+          }}
         />
       </Paper>
     </Box>
