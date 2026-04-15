@@ -27,7 +27,7 @@ const LINKS = [
   {
     id: "invoice",
     icon: <RequestQuoteIcon />,
-    href: "https://forms.monday.com/forms/embed/398b00e0fab6f17d3d6c171df26d5fe8?r=euc1",
+    href: "https://forms.monday.com/forms/embed/988a463d28cbf950a8b8f7dd58c7371b?r=euc1",
     type: "iframe" as const,
   },
   {
