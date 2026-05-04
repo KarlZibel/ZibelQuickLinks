@@ -15,26 +15,26 @@ const LINKS = [
   {
     id: "tribeBinEmptying",
     icon: <DeleteOutlineIcon />,
-    href: "https://forms.monday.com/forms/embed/f9cd2727621149ba501423d95ebc2ec9?r=euc1",
-    type: "iframe" as const,
+    href: "https://forms.monday.com/forms/f9cd2727621149ba501423d95ebc2ec9?r=euc1",
+    type: "external" as const,
   },
   {
     id: "cleanUp",
     icon: <CleaningServicesIcon />,
-    href: "https://forms.monday.com/forms/embed/422b53b6b4f49645029d324937eeb539?r=euc1",
-    type: "iframe" as const,
+    href: "https://forms.monday.com/forms/422b53b6b4f49645029d324937eeb539?r=euc1",
+    type: "external" as const,
   },
   {
     id: "invoice",
     icon: <RequestQuoteIcon />,
-    href: "https://forms.monday.com/forms/embed/988a463d28cbf950a8b8f7dd58c7371b?r=euc1",
-    type: "iframe" as const,
+    href: "https://forms.monday.com/forms/988a463d28cbf950a8b8f7dd58c7371b?r=euc1",
+    type: "external" as const,
   },
   {
     id: "ghostNetReporting",
     icon: <CatchingPokemonIcon />,
-    href: "https://forms.monday.com/forms/embed/f60be52d2885d48ec2ba718d61f2b819?r=euc1",
-    type: "iframe" as const,
+    href: "https://forms.monday.com/forms/f60be52d2885d48ec2ba718d61f2b819?r=euc1",
+    type: "external" as const,
   }
 ];
 
@@ -120,7 +120,7 @@ const Index = () => {
                       href={link.href}
                       type={link.type}
                       onIframeClick={() =>
-                        link.type === "iframe"
+                        link.type.includes("iframe")
                           ? setActiveIframe({ label, href: link.href })
                           : undefined
                       }
